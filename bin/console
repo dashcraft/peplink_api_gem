@@ -11,5 +11,7 @@ require "peplink_api"
 # require "pry"
 # Pry.start
 
+client =  PeplinkApi::Client.new(client_id:"client_id", client_secret:"client_secret", org_id:"org_id")
+
 require "irb"
 IRB.start(__FILE__)
